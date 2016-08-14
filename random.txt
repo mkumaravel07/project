@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include<conio.h>
+using namespace std;
+int return_random_value()
+{
+	srand(time(NULL));
+    int n=rand()% 3;
+    return n;
+}
